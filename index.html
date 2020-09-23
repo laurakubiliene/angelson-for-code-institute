@@ -17,24 +17,65 @@
         <ul class="nav justify-content-center">
             
             <li class="nav-item">
-                <a class="nav-link active" href="#index.html">ANGELSON</a>
+                <a class="nav-link active" href="#index.html"><h1>ANGELSON</h1></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#map.html" tabinex="-1" aria-disabled="true">Locations</a>
+                <a class="nav-link" href="#index.html" tabinex="-1" aria-disabled="true">Locations</a>
             </li>
              
         </ul>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p>We are working across Greater Manchester and beyond, find the exact locations so you can be covered easy and quick!</p>
+                </div>
+            </div>
+        </div>
+
     </header>
 
 <!--header ends-->
 
 <!--section where map picture is supposed to be-->
 
-    <section>
-        <div class="container">
+    <section class="map">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--secction ends-->
+
+<!--section with a form taken from bootstrap library-->
+
+    <section class="form">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputName">Full Name</label>
+                        <input type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputMessage">Message</label>
+                        <input type="password" class="form-control" id="exampleInputMessage">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
                 </div>
             </div>
         </div>
@@ -48,7 +89,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="contacts"><span>Email: info@angelson.co.uk  Phone Number: +447989594906</span></div>
+                    <div class="contacts"><span>Phone Number: +447989594906 Email: info@angelson.co.uk</span></div>
                 </div>
             </div>
         </div>
